@@ -1,12 +1,12 @@
 <?php
 
-class pyroController extends baseDatabaseController {
+class booksController extends baseDatabaseController {
 	public $details = array(
 		'version' => '1.0',
 		'description' => '',
-		'help' => 'http://www.help.com/mainController',
+		'help' => 'http://www.help.com/booksController',
 		'type' => 'database',
-		'tablename' => 'nike',
+		'tablename' => 'books',
 		'connection' => 'default',
 		'primary' => 'id',
 		'fields' => '',
